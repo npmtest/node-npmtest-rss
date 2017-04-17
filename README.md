@@ -1,7 +1,7 @@
 # test coverage for  [rss (v1.2.2)](http://github.com/dylang/node-rss)  [![npm package](https://img.shields.io/npm/v/npmtest-rss.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rss) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rss.svg)](https://travis-ci.org/npmtest/node-npmtest-rss)
 #### RSS feed generator. Add RSS feeds to any project. Supports enclosures and GeoRSS.
 
-[![NPM](https://nodei.co/npm/rss.png?downloads=true)](https://www.npmjs.com/package/rss)
+[![NPM](https://nodei.co/npm/rss.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/rss)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-rss/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-rss/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-rss/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rss/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rss/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-rss/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-rss/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-rss/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-rss/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-rss/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-rss%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-rss/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-rss/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-rss/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-rss/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-rss%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-rss/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-rss/build/test-report.html](https://npmtest.github.io/node-npmtest-rss/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-rss/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-rss/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-rss/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-rss/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-rss/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-rss/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-rss/build/screenCapture.npmPackageListing.svg)
 
@@ -27,8 +33,7 @@
 
 {
     "author": {
-        "name": "Dylan Greene",
-        "email": "dylang@gmail.com"
+        "name": "Dylan Greene"
     },
     "browserify": {
         "transform": [
@@ -40,12 +45,10 @@
     },
     "contributors": [
         {
-            "name": "Dylan Greene",
-            "email": "dylang@gmail.com"
+            "name": "Dylan Greene"
         },
         {
-            "name": "Xavier Damman",
-            "email": "xdamman@gmail.com"
+            "name": "Xavier Damman"
         },
         {
             "name": "Michael R. Lange"
@@ -57,23 +60,19 @@
             "name": "Danny Graham"
         },
         {
-            "name": "Patrick Garman",
-            "email": "contact@pmgarman.me"
+            "name": "Patrick Garman"
         },
         {
             "name": "Fred Morstatter"
         },
         {
-            "name": "Eric Vantillard",
-            "email": "eric.vantillard@evaxion.fr"
+            "name": "Eric Vantillard"
         },
         {
-            "name": "Jason Karns",
-            "email": "jasonkarns"
+            "name": "Jason Karns"
         },
         {
-            "name": "Hannah Wolfe",
-            "email": "github.erisds@gmail.com"
+            "name": "Hannah Wolfe"
         }
     ],
     "dependencies": {
@@ -119,17 +118,14 @@
     "main": "lib/index",
     "maintainers": [
         {
-            "name": "dylang",
-            "email": "dylang@gmail.com"
+            "name": "dylang"
         },
         {
-            "name": "erisds",
-            "email": "erisds@gmail.com"
+            "name": "erisds"
         }
     ],
     "name": "rss",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/dylang/node-rss.git"
